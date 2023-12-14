@@ -1,0 +1,153 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Zadanko 1*/
+header {
+    background-color: navy;
+    color: white;
+    margin: 20px;
+    text-align: center;
+}
+
+nav {
+    background-color: darkgray;
+    margin: 0px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover {
+    background-color: lightgray;
+}
+
+article {
+    background-color: ivory;
+    margin: 15px;
+    border: 1px solid darkgray;
+    box-shadow: 2px 2px 5px #888888;
+}
+
+article h2 {
+    color: darkgreen;
+    margin: 5px 0;
+}
+
+aside {
+    background-color: lightgray;
+    color: black;
+    margin: 10px;
+    margin-left: 20px;
+}
+
+footer {
+    background-color: darkgray;
+    color: white;
+    text-align: center;
+    margin: 20px;
+    height: 50px;
+}
+
+/* Zadanko 2 */
+.firm-header {
+    background-color: darkblue;
+    text-align: center;
+    padding: 20px;
+}
+
+.firm-header img {
+    display: inline-block;
+}
+
+.firm-header nav {
+    float: right;
+}
+
+a:-webkit-any-link {
+
+    
+    cursor: pointer ;
+}
+.firm-header nav ul {
+    float: right;
+    text-align: center;
+    padding-left: 15px;
+}
+
+.firm-section {
+    background-color: #f4f4f4;
+    margin: 20px;
+    padding: 40px;
+}
+
+.firm-section h1 {
+    color: darkred;
+}
+
+.firm-section h2 {
+    font-style: italic;
+    font-size: smaller;
+}
+
+.firm-footer {
+    background-color: black;
+    color: white;
+    text-align: left;
+    padding: 30px;
+}
+
+.firm-footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+.firm-footer li {
+    display: inline;
+    margin-right: 15px;
+}
+
+.firm-footer a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Zadanko 3 */
+.info-section {
+    background-color: lightgreen;
+    border: 1px solid black;
+    margin: 20px;
+    padding: 30px;
+}
+
+.info-section article {
+    background-color: white;
+    box-shadow: 2px 2px 5px #888888;
+    margin: 10px;
+    padding: 10px;
+}
+
+.info-section article h1, .info-section article h2, .info-section article h3,
+.info-section article h4, .info-section article h5, .info-section article h6 {
+    color: linear-gradient(to right, darkblue, lightblue);
+    cursor: pointer;
+}
+
+.info-section article a {
+    text-decoration: none;
+   
+}
